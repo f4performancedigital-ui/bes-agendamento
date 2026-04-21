@@ -171,4 +171,4 @@ app.get('/api/stats', (req, res) => {
 
 app.get('/api/google-status', (req, res) => res.json({ connected: !!tokens }));
 
-app.listen(PORT, () => console.log(`BES Agendamentos rodando na porta ${PORT}`));
+app.listen(PORT, () => console.log(`BES Agendamentos rodando na porta ${PORT}`));// v2
